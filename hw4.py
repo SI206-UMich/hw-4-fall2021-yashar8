@@ -10,7 +10,7 @@ class Customer:
         self.wallet = wallet
 
     # Reload some deposit into the customer's wallet.
-    def reload_money(self,deposit):
+    def reload_money(self,deposit): 
         self.wallet += deposit
 
     # The customer orders the food and there could be different cases   
